@@ -37,20 +37,18 @@
 		<meta property="term" refines="#subject-2">sh2010106043</meta>
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONG_DESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57342</dc:source>
 		<meta property="se:production-notes">(1) See the "Transcriber's Note" in the original Gutenberg files for notes about the many corrections the transcribers made to the book as-printed.</meta>
-      <!-- TODO: Add link to book scans -->
+		<!-- TODO: Add link to book scans -->
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lives_and_Opinions_of_Eminent_Philosophers</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/diogenes-laertius_the-lives-and-opinions-of-eminent-philosophers</meta>
 		<dc:creator id="author">Diogenes Laërtius</dc:creator>
 		<meta property="file-as" refines="#author">Diogenes Laërtius</meta>
-      <!-- TODO: Greek: Διογένης Λαέρτιος -->
+		<!-- TODO: Greek: Διογένης Λαέρτιος -->
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Diogenes_La%C3%ABrtius</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80067474</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -75,9 +73,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-      <!-- TODO: translator C[harles]. D[uke]. Yonge -->
-      <!-- TODO: translator https://en.wikipedia.org/wiki/Charles_Duke_Yonge -->
-      <!-- TODO: translator http://id.loc.gov/authorities/names/n86829770 -->
+		<!-- TODO: translator C[harles]. D[uke]. Yonge -->
+		<!-- TODO: translator https://en.wikipedia.org/wiki/Charles_Duke_Yonge -->
+		<!-- TODO: translator http://id.loc.gov/authorities/names/n86829770 -->
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
