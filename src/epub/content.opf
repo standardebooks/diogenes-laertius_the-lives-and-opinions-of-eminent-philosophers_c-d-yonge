@@ -38,9 +38,14 @@
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57342</dc:source>
-		<meta property="se:production-notes">(1) See the "Transcriber's Note" in the original Gutenberg files for notes about the many corrections the transcribers made to the book as-printed.</meta>
+		<meta property="se:production-notes">
+      (1) See the "Transcriber's Note" in the original Gutenberg files for notes about the many corrections the transcribers made to the book as-printed.
+      (2) There is great ambiguity about titles of books etc. mentioned in the text, especially because many of the ones mentioned no longer exist; sometimes it's unclear whether a book is being mentioned by title or by subject matter or by variety of work (e.g. Dialogues, Apothegms). When I wasn't able to know for certain, I just made a guess as to whether or not to italicize.
+      (3) In the original, most of the h3 headings read "Life of So-and-So"; I have changed these to merely "So-and-So".
+      (4) There's a mention of a philosopher learning to pronounce the letter rho. In the Yonge translation for some reason, this was rendered as the letter "C"; the PG transcribers changed this to the English letter "R"; I've changed this to the Greek letter "Ρ".
+      </meta>
 		<!-- TODO: Add link to book scans -->
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
