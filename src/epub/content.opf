@@ -45,13 +45,13 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57342</dc:source>
 		<meta property="se:production-notes">
-      (1) See the "Transcriber's Note" in the original Gutenberg files for notes about the many corrections the PG transcribers made to the book as-printed.
-      (2) There is great ambiguity about titles of books etc. mentioned in the text, especially because many of the ones mentioned no longer exist; sometimes it's unclear whether a book is being mentioned by title or by subject matter (which Yonge capitalizes, thus lending extra confusion) or by variety of work (e.g. Dialogues, Apothegms, also capitalized). When I wasn't able to know for certain, I just made a guess as to whether or not to italicize, but I found it difficult to develop a consistent scheme.
-      (3) In the original, most of the h3 headings read "Life of So-and-So"; I have changed these to merely "So-and-So".
-      (4) There's a mention of a philosopher learning to pronounce the letter rho. In the Yonge translation for some reason, this was rendered as the letter "C"; the PG transcribers changed this to the English letter "R"; I've changed this to the Greek letter "Ρ".
-      (5) I converted English to American spellings.
-      (6) There is a traditional numbering scheme for the paragraphs, one that fans of the classics use for their cross references, and that Yonge preserved in his text; I have removed those.
-      </meta>
+		(1) See the "Transcriber's Note" in the original Gutenberg files for notes about the many corrections the PG transcribers made to the book as-printed.
+		(2) There is great ambiguity about titles of books etc. mentioned in the text, especially because many of the ones mentioned no longer exist; sometimes it's unclear whether a book is being mentioned by title or by subject matter (which Yonge capitalizes, thus lending extra confusion) or by variety of work (e.g. Dialogues, Apothegms, also capitalized). When I wasn't able to know for certain, I just made a guess as to whether or not to italicize, but I found it difficult to develop a consistent scheme.
+		(3) In the original, most of the h3 headings read "Life of So-and-So"; I have changed these to merely "So-and-So".
+		(4) There's a mention of a philosopher learning to pronounce the letter rho. In the Yonge translation for some reason, this was rendered as the letter "C"; the PG transcribers changed this to the English letter "R"; I've changed this to the Greek letter "Ρ".
+		(5) I converted English to American spellings.
+		(6) There is a traditional numbering scheme for the paragraphs, one that fans of the classics use for their cross references, and that Yonge preserved in his text; I have removed those.
+		</meta>
 		<!-- TODO: Add link to book scans -->
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -87,6 +87,8 @@
 		<!-- TODO: translator C[harles]. D[uke]. Yonge -->
 		<!-- TODO: translator https://en.wikipedia.org/wiki/Charles_Duke_Yonge -->
 		<!-- TODO: translator http://id.loc.gov/authorities/names/n86829770 -->
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
