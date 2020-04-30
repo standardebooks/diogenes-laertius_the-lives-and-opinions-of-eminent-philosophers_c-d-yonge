@@ -1,14 +1,24 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 abbr.era{
 	font-variant: all-small-caps;
+}
+
+body [xml|lang]{
+	font-style: italic;
 }
 
 header{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
+}
+
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
 }
 
 [epub|type~="z3998:drama"]{
@@ -39,14 +49,9 @@ header{
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
 	text-align: right;
-	width: 20%;
+	width: 2em;
 }
 
-[epub|type~="z3998:drama"] td p{
-	text-indent: 0;
-}
-
-table[epub|type~="z3998:drama"],
 [epub|type~="z3998:drama"] table{
 	margin: 1em auto;
 }

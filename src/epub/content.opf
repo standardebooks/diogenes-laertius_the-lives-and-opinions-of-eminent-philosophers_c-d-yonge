@@ -49,7 +49,15 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57342</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_lives_and_opinions_of_eminent_philos/1sEIAAAAQAAJ</dc:source>
-		<meta property="se:production-notes">(1) See the “Transcriber’s Note” in the original Gutenberg files for notes about the many corrections the PG transcribers made to the book as-printed. (2) There is great ambiguity about titles of books etc. mentioned in the text, especially because many of the ones mentioned no longer exist; sometimes it’s unclear whether a book is being mentioned by title or by subject matter (subjects are usually capitalized, for extra confusion) or by variety of work (e.g. Dialogues, Apothegms, also capitalized). When I wasn’t able to know for certain, I just made a guess as to whether or not to italicize, but I found it difficult to develop a consistent scheme. (3) In the original, most of the h3 headings read “Life of So-and-So”; I have changed these to merely “So-and-So” to remove redundant bulk from the TOC. (4) There’s a mention of a philosopher learning to pronounce the letter rho. In the Yonge translation for some reason, this was rendered as the letter “C”; the PG transcribers changed this to the English letter “R”; I’ve changed this to the Greek letter “Ρ”. (5) I converted English to American spellings. (6) There is a traditional numbering scheme for the paragraphs, one that fans of the classics use for their cross references, and that Yonge preserved in his text; I have removed those. (7) There’s often this weird way of putting things: “Obsticles used to say, ‘That the moon is made of green cheese’” instead of “Obsticles used to say that the moon is made of green cheese” or “Obsticles used to say: ‘The moon is made of green cheese’” It’s awkward, but I’m not sure how to make it any better without overly invasive editing. (8) In book 10 there are some multi-paragraph quotes from Epicurus, with some editorial comments from D.L. interspersed; I've converted these to blockquotes with the editorial comments as ordinary paragraphs between them.</meta>
+		<meta property="se:production-notes">
+(1) See the “Transcriber’s Note” in the original Gutenberg files for notes about the many corrections the PG transcribers made to the book as-printed.
+(2) There is great ambiguity about titles of books etc. mentioned in the text, especially because many of the ones mentioned no longer exist; sometimes it’s unclear whether a book is being mentioned by title or by subject matter (subjects are usually capitalized, for extra confusion) or by variety of work (e.g. Dialogues, Apothegms, also capitalized). When I wasn’t able to know for certain, I just made a guess as to whether or not to italicize, but I found it difficult to develop a consistent scheme.
+(3) In the original, most of the h3 headings read “Life of So-and-So”; I have changed these to merely “So-and-So” to remove redundant bulk from the TOC.
+(4) There’s a mention of a philosopher learning to pronounce the letter rho. In the Yonge translation for some reason, this was rendered as the letter “C”; the PG transcribers changed this to the English letter “R”; I’ve changed this to the Greek letter “Ρ”.
+(5) I converted English to American spellings.
+(6) There is a traditional numbering scheme for the paragraphs, one that fans of the classics use for their cross references, and that Yonge preserved in his text; I have removed those.
+(7) There’s often this weird way of putting things: “Obsticles used to say, ‘That the moon is made of green cheese’” instead of “Obsticles used to say that the moon is made of green cheese” or “Obsticles used to say: ‘The moon is made of green cheese’” It’s awkward, but I’m not sure how to make it any better without overly invasive editing.
+(8) In book 10 there are some multi-paragraph quotes from Epicurus, with some editorial comments from D.L. interspersed; I've converted these to blockquotes with the editorial comments as ordinary paragraphs between them.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lives_and_Opinions_of_Eminent_Philosophers</meta>
@@ -60,10 +68,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Diogenes_La%C3%ABrtius</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80067474</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Hendrick ter Brugghen</dc:contributor>
+		<meta property="file-as" refines="#artist">Brugghen, Hendrick Ter</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hendrick_ter_Brugghen</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr88003650</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
@@ -93,7 +101,9 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
