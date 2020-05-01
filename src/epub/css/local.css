@@ -52,10 +52,6 @@ span.elision{
 	width: 2em;
 }
 
-[epub|type~="z3998:drama"] table{
-	margin: 1em auto;
-}
-
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
