@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
-	<title>The titlepage for the Standard Ebooks edition of The Lives and Opinions of Eminent Philosophers, by Diogenes Laërtius</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 890">
+	<title>The titlepage for the Standard Ebooks edition of The Lives and Opinions of Eminent Philosophers, by Diogenes Laërtius. Translated by C. D. Yonge</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -15,9 +15,23 @@
 		.author{
 			font-size: 70.17543793px;
 		}
+
+		.contributor-descriptor{
+			font-family: "OFL Sorts Mill Goudy";
+			font-size: 42.5079689px;
+			font-style: italic;
+			letter-spacing: 0;
+		}
+
+		.contributor{
+			font-size: 46.78362656px;
+		}
 	</style>
-	<text class="title" x="700" y="130">THE LIVES AND</text>
-	<text class="title" x="700" y="230">OPINIONS OF EMINENT</text>
-	<text class="title" x="700" y="330">PHILOSOPHERS</text>
-	<text class="author" x="700" y="490">DIOGENES LAËRTIUS</text>
+	<text class="title" x="700" y="130">THE LIVES</text>
+	<text class="title" x="700" y="230">AND OPINIONS</text>
+	<text class="title" x="700" y="330">OF EMINENT</text>
+	<text class="title" x="700" y="430">PHILOSOPHERS</text>
+	<text class="author" x="700" y="590">DIOGENES LAËRTIUS</text>
+	<text class="contributor-descriptor" x="700" y="780">translated by</text>
+	<text class="contributor" x="700" y="840">C. D. YONGE</text>
 </svg>
