@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/diogenes-laertius/the-lives-and-opinions-of-eminent-philosophers/c-d-yonge</dc:identifier>
 		<dc:date>2020-05-02T18:23:25Z</dc:date>
 		<meta property="dcterms:modified">2020-05-02T18:23:25Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -39,8 +40,8 @@
 		<meta property="term" refines="#subject-1">sh85100861</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010106043</meta>
-		<meta property="se:subject">Biography</meta>
-		<meta property="se:subject">Philosophy</meta>
+		<meta property="schema:genre">Biography</meta>
+		<meta property="schema:genre">Philosophy</meta>
 		<dc:description id="description">Brief biographies of the prominent philosophers of ancient Greece.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;These brief biographies of more than eighty philosophers of ancient Greece were assembled by &lt;a href="https://standardebooks.org/ebooks/diogenes-laertius"&gt;Diogenes Laërtius&lt;/a&gt; in the early third century. He based these on a variety of sources that have since been lost. Because of this, his biographies have become an invaluable source of information on the development of ancient Greek philosophy, and on ancient Greek culture in general. Most of what we know about the lives and otherwise lost doctrines of Zeno the Stoic and Diogenes the Cynic, for example, come from what Diogenes Laërtius preserved in this book. Mourning what else we have lost, Montaigne wrote: “I am very sorry we have not a dozen Laërtii.”&lt;/p&gt;
@@ -50,47 +51,40 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57342</dc:source>
 		<dc:source>https://books.google.com/books?id=1sEIAAAAQAAJ</dc:source>
-		<meta property="se:production-notes">
-		(1) See the “Transcriber’s Note” in the original Gutenberg files for notes about the many corrections the PG transcribers made to the book as-printed.
-		(2) There is great ambiguity about titles of books etc. mentioned in the text, especially because many of the ones mentioned no longer exist; sometimes it’s unclear whether a book is being mentioned by title or by subject matter (subjects are usually capitalized, for extra confusion) or by variety of work (e.g. Dialogues, Apothegms, also capitalized). When I wasn’t able to know for certain, I just made a guess as to whether or not to italicize, but I found it difficult to develop a consistent scheme.
-		(3) In the original, most of the h3 headings read “Life of So-and-So”; I have changed these to merely “So-and-So” to remove redundant bulk from the TOC.
-		(4) There’s a mention of a philosopher learning to pronounce the letter rho. In the Yonge translation for some reason, this was rendered as the letter “C”; the PG transcribers changed this to the English letter “R”; I’ve changed this to the Greek letter “Ρ.”
-		(5) I converted English to American spellings.
-		(6) There is a traditional numbering scheme for the paragraphs, one that fans of the classics use for their cross references, and that Yonge preserved in his text; I have removed those.
-		(7) There’s often this weird way of putting things: “Obsticles used to say, ‘That the moon is made of green cheese’” instead of “Obsticles used to say that the moon is made of green cheese” or “Obsticles used to say: ‘The moon is made of green cheese’” It’s awkward, but I’m not sure how to make it any better without overly invasive editing.
-		(8) In book 10 there are some multi-paragraph quotes from Epicurus, with some editorial comments from D.L. interspersed; I've converted these to blockquotes with the editorial comments as ordinary paragraphs between them.</meta>
-		<meta property="se:word-count">179129</meta>
-		<meta property="se:reading-ease.flesch">48.88</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lives_and_Opinions_of_Eminent_Philosophers</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/diogenes-laertius_the-lives-and-opinions-of-eminent-philosophers_c-d-yonge</meta>
+		<meta property="schema:wordCount">179129</meta>
+		<meta property="schema:educationalLevel">48.88</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Lives_and_Opinions_of_Eminent_Philosophers" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/diogenes-laertius_the-lives-and-opinions-of-eminent-philosophers_c-d-yonge" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Diogenes Laërtius</dc:creator>
 		<meta property="file-as" refines="#author">Diogenes Laërtius</meta>
 		<meta property="alternate-script" refines="#author">Διογένης Λαέρτιος</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Diogenes_La%C3%ABrtius</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80067474</meta>
+		<link href="https://en.wikipedia.org/wiki/Diogenes_La%C3%ABrtius" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80067474.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">C. D. Yonge</dc:contributor>
 		<meta property="file-as" refines="#translator">Yonge, Charles Duke</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Charles_Duke_Yonge</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n86829770</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Duke_Yonge" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86829770.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Hendrick ter Brugghen</dc:contributor>
 		<meta property="file-as" refines="#artist">Brugghen, Hendrick Ter</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hendrick_ter_Brugghen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr88003650</meta>
+		<link href="https://en.wikipedia.org/wiki/Hendrick_ter_Brugghen" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr88003650.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David M. Gross</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL/</meta>
+		<link href="https://sniggle.net/TPL/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -99,7 +93,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
