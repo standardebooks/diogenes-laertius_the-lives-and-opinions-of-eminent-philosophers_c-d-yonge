@@ -54,7 +54,7 @@
 		<meta property="schema:wordCount">179129</meta>
 		<meta property="schema:educationalLevel">48.88</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Lives_and_Opinions_of_Eminent_Philosophers" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/diogenes-laertius_the-lives-and-opinions-of-eminent-philosophers_c-d-yonge" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Diogenes Laërtius</dc:creator>
