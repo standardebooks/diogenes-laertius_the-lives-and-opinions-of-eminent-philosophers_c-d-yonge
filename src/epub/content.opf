@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/diogenes-laertius/the-lives-and-opinions-of-eminent-philosophers/c-d-yonge</dc:identifier>
 		<dc:date>2020-05-02T18:23:25Z</dc:date>
@@ -42,12 +42,12 @@
 		<meta property="term" refines="#subject-2">sh2010106043</meta>
 		<meta property="schema:genre">Biography</meta>
 		<meta property="schema:genre">Philosophy</meta>
-		<dc:description id="description">Brief biographies of the prominent philosophers of ancient Greece.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Brief biographies of the prominent philosophers of ancient Greece.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;These brief biographies of more than eighty philosophers of ancient Greece were assembled by &lt;a href="https://standardebooks.org/ebooks/diogenes-laertius"&gt;Diogenes Laërtius&lt;/a&gt; in the early third century. He based these on a variety of sources that have since been lost. Because of this, his biographies have become an invaluable source of information on the development of ancient Greek philosophy, and on ancient Greek culture in general. Most of what we know about the lives and otherwise lost doctrines of Zeno the Stoic and Diogenes the Cynic, for example, come from what Diogenes Laërtius preserved in this book. Mourning what else we have lost, Montaigne wrote: “I am very sorry we have not a dozen Laërtii.”&lt;/p&gt;
 			&lt;p&gt;Steamy romance, barbed humor, wicked cattiness, tender acts of humanity, jealous feuds, terrible puns, sophistical paradoxes, deathbed deceptions, forgery, and political intrigue … while the philosophers of ancient Greece were developing their remarkable and penetrating philosophies, they were also leading strange and varied lives—at times living out their principles in practice, at other times seeming to defy all principle.&lt;/p&gt;
 			&lt;p&gt;Diogenes Laërtius collected as much biographical information as he could find about these ancient sages, and tried to sift through the sometimes contradictory accounts to find the true story. He shares with us anecdotes and witty remarks and biographical details that reveal the people behind the philosophies, and frequently adds a brief poem of his own construction that comments sardonically on how each philosopher died.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57342</dc:source>
 		<dc:source>https://books.google.com/books?id=1sEIAAAAQAAJ</dc:source>
